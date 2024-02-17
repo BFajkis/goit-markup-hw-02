@@ -4,24 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Description" content="Opis strony widoczny w wyszukiwarkach" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
     <title>Main Page</title>
   </head>
 
   <body>
     <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
+      <nav class="style-logo">
+        <a class="link_logo" href="./index.html"
+          >Web<span class="secend_pice_logo">Studio</span></a
+        >
         <ul>
-          <li><a href="/Studio">Studio</a></li>
-          <li><a href="/Portfolio">Portfolio</a></li>
-          <li><a href="/Contacts">Contacts</a></li>
+          <li><a class="link_logo" href="/Studio">Studio</a></li>
+          <li><a class="link_logo" href="/Portfolio">Portfolio</a></li>
+          <li><a class="link_logo" href="/Contacts">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="contacts">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="contacts_link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts_link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -113,8 +133,9 @@
         </ul>
       </section>
       <section>
-        <td>
-          <tr>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
             <img
               src="./images/banking app.jpg"
               alt="picture Banking app"
@@ -123,8 +144,8 @@
             />
             <h3>Banking App</h3>
             <p>App</p>
-          </tr>
-          <tr>
+          </li>
+          <li>
             <img
               src="./images/cashlesh.jpg"
               alt="picture cashlesh"
@@ -133,8 +154,8 @@
             />
             <h3>Cashlesh</h3>
             <p>Marketing</p>
-          </tr>
-          <tr>
+          </li>
+          <li>
             <img
               src="./images/Madittation_apps.jpg"
               alt="zdjęcie Meditation App"
@@ -143,10 +164,10 @@
             />
             <h3>Meditation App</h3>
             <p>App</p>
-          </tr>
-        </td>
-        <td>
-          <tr>
+          </li>
+        </ul>
+        <ul>
+          <li>
             <img
               src="./images/taxi_servise.jpg"
               alt="zdjęcie Taxi Servise"
@@ -155,8 +176,8 @@
             />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
-          </tr>
-          <tr>
+          </li>
+          <li>
             <img
               src="./images/screen_ilustration.jpg"
               alt="zdjęcie Screen Ilustration"
@@ -165,8 +186,8 @@
             />
             <h3>Screen Illustrations</h3>
             <p>Design</p>
-          </tr>
-          <tr>
+          </li>
+          <li>
             <img
               src="./images/online.jpg"
               alt="zdjęcie Online Courses"
@@ -175,8 +196,8 @@
             />
             <h3>Online Courses</h3>
             <p>Marketing</p>
-          </tr>
-        </td>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
