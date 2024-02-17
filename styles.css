@@ -26,10 +26,11 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.link_logo:hover,
+.link_logo:hover
 .link_logo:active
 {
     color: #404bbf;
+    cursor: pointer;
 }
 .contacts{
     font-style: normal;
@@ -40,9 +41,10 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contacts_link:hover,
+.contacts_link:hover
 .contacts_link:active{
     color: #404bbf;
+    cursor: pointer;
 }
 
 
