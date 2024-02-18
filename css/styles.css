@@ -13,11 +13,11 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .secend_pice_logo{
-    color: #2e2f42;
+    color:#2e2f42;
 }
 .link_logo{
     font-weight: 500;
@@ -26,7 +26,9 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.link_logo:hover{
+.link_logo:hover,
+.link_logo:focus
+{
     color: #404bbf;
     cursor: pointer;
 }
@@ -44,7 +46,9 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contacts_link:hover{
+.contacts_link:hover,
+.contacts_link:focus
+{
     color: #404bbf;
     cursor: pointer;
 }
@@ -114,13 +118,26 @@ color: #FFFFFF;
 .style_footer{
     background-color: #2e2f42;
 }
+.style-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 .logo_footer{
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-.secend_pice_logo{
+
+
+.secend_pice_logo_footer{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
+
