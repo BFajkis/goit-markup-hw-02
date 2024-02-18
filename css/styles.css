@@ -62,7 +62,7 @@ body{
 .first-section{
     background-color: #2e2f42;
 }
-.style_h1{
+.style_heading_first{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -87,7 +87,7 @@ color: #FFFFFF;
     background-color: #404bbf;
     cursor: pointer;
 }
-.style_h3{
+.style_heading_third{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -105,7 +105,7 @@ color: #FFFFFF;
 .thirth_section{
     background:#F4F4FD
 }
-.thirt-section-h2{
+.thirt-section-h-secend{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
