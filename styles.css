@@ -26,7 +26,10 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.link_logo:hover,
+.link_logo:hover{
+    color: #404bbf;
+    cursor: pointer;
+}
 .link_logo:active
 {
     color: #404bbf;
@@ -37,11 +40,14 @@ body{
 }
 .contacts_link{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contacts_link:hover,
+.contacts_link:hover{
+    color: #404bbf;
+    cursor: pointer;
+}
 .contacts_link:active{
     color: #404bbf;
     cursor: pointer;
@@ -68,7 +74,10 @@ color: #FFFFFF;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     }
-.style-button:hover,
+.style-button:hover{
+    background-color: #404bbf;
+    cursor: pointer;
+}
 .style-button:active{
     background-color: #404bbf;
     cursor: pointer;
@@ -76,7 +85,7 @@ color: #FFFFFF;
 .style_h3{
     font-size: 20px;
     font-weight: 500;
-    list-style: 1.2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     
@@ -93,10 +102,11 @@ color: #FFFFFF;
 }
 .thirt-section-h2{
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
 }
 .color_list{
     background-color: #FFFFFF;
@@ -108,4 +118,9 @@ color: #FFFFFF;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+.secend_pice_logo{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
