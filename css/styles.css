@@ -78,7 +78,8 @@ color: #FFFFFF;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     }
-.style-button:hover{
+.style-button:hover,
+.style-button:focus{
     background-color: #404bbf;
     cursor: pointer;
 }
