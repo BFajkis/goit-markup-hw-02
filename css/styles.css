@@ -4,7 +4,9 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
-
+ul{
+    list-style-type: none;
+}
 
 .style-logo{
     font-family:"Raleway", sans-serif;
@@ -14,6 +16,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .secend_pice_logo{
@@ -25,6 +28,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 .link_logo:hover,
 .link_logo:focus
@@ -45,6 +49,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 .contacts_link:hover,
 .contacts_link:focus
@@ -127,6 +132,7 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 .logo_footer{
     color: #F4F4FD;
@@ -139,6 +145,7 @@ color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    text-decoration: none;
 }
 
 
